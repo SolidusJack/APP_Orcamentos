@@ -1,0 +1,7 @@
+/*Esconde a segunda coluna (Tipo) em telas menores que 768px */
+@media (max-width: 767.98px) {
+    table th:nth-child(2), 
+    table td:nth-child(2) {
+        display: none;
+    }
+}
